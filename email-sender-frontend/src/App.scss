@@ -1,0 +1,105 @@
+.appWrapper {
+  margin: 0;
+  padding: 0;
+  .headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background-color: #895ec3;
+    .headerTitle {
+      color: #f9f9f7;
+    }
+    .headerButton {
+      background-color: #f9f9f7;
+      color: #895ec3;
+      border: none;
+
+      &:hover {
+        color: #f9f9f7;
+        background-color: #c4aee1;
+        border: none;
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+    .headerButton + .headerButton {
+      margin-left: 30px;
+    }
+  }
+  .resultWrapper {
+    .ant-result-extra {
+      .resultButton {
+        background-color: #895ec3;
+        color: #f9f9f7;
+        border: none;
+
+        &:hover {
+          background-color: #5f3795;
+          border: none;
+        }
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+  .drawerWrapper {
+    .ant-drawer-body {
+      .ant-form {
+        .ant-form-item {
+          .ant-form-item-row {
+            .ant-form-item-label {
+              text-align: left !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.submitButton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.primaryButton {
+  background-color: #895ec3;
+  color: #f9f9f7;
+  border: none;
+
+  &:hover {
+    background-color: #5f3795 !important;
+    border: none;
+  }
+  &:focus {
+    outline: none;
+  }
+}
+
+.modelBodyWrapper {
+  min-height: 300px;
+  .foundationSelect {
+    width: 100%;
+  }
+}
+
+.sendButton {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.tableWrapper {
+  padding: 10px 50px 0 50px;
+  min-width: 800px;
+  .ant-table-thead {
+    tr {
+      th {
+        background-color: #c4aee1;
+      }
+    }
+  }
+}
